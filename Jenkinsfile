@@ -1,4 +1,3 @@
-@Library('commons-net')
 
 pipeline {
   agent any

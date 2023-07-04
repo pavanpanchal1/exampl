@@ -1,4 +1,4 @@
-@Library('commons-net') _
+// @Library('commons-net') _
 
 pipeline {
   agent any

@@ -9,7 +9,7 @@ pipeline {
         script {
           // Define the GitHub repository details
           def repositoryUrl = 'https://github.com/pavanpanchal1/exampl.git'
-          def branch = 'main'
+          def branch = 'master'
 
           // Clone the GitHub repository
           checkout([$class: 'GitSCM', branches: [[name: "refs/heads/${branch}"]], userRemoteConfigs: [[url: repositoryUrl]]])
